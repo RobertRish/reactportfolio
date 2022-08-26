@@ -6,16 +6,11 @@
 
 https://RobertRish.github.io/reactportfolio
 
-## Table of Contents
-
-1. [Title](#title)
-2. [Link](#link)
-3. [Description](#description)
-4. [Questions](#questions)
-
 ## Description
 
 My portfolio showcasing the projects that I've built.
+
+![screenshot of homepage of portfolio](src/assets/screenshot.png)
 
 ## Questions
 
