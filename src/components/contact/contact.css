@@ -50,7 +50,7 @@ input, textarea {
     border-radius: 0.5rem;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    /* color: var(--color-white); */
 }
 
 /* Media Queries (Medium Devices) */

@@ -17,6 +17,10 @@ const Portfolio = () => {
             <img src={SNACKR} alt="SNACKR home page" />
           </div>
           <h3>SNACKR</h3>
+          <p className="tech-used">(HTML, CSS, JavaScript, Server-side API)</p>
+          <p>
+            An application that allows users to search for dishes from a recipe API and then drag and drop recipe cards into a weekly meal planner.
+          </p>
           <div className="portfolio__item-cta">
             <a href="https://github.com/nsvoboda/SNACKR" className="btn">
               GitHub
@@ -37,6 +41,10 @@ const Portfolio = () => {
             <img src={SaySomething} alt="SaySomething home page" />
           </div>
           <h3>SaySomething</h3>
+          <p className="tech-used">(HTML, CSS, JavaScript, Server-side API, Node, Express, SQL, Sequelize (ORM), Handlebars.js)</p>
+          <p>
+            A social media application.
+          </p>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/kazichaska/saysomething"
@@ -59,7 +67,11 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={EmployeeTracker} alt="youtube demo" />
           </div>
-          <h3>Employee Tracker (MySQL)</h3>
+          <h3>Employee Tracker</h3>
+          <p className="tech-used">(Node, Inquirer.js, SQL, mySQL)</p>
+          <p>
+            A CLI application that allows users to manage a company database.
+          </p>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/RobertRish/Employee-Tracker"
@@ -82,7 +94,11 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={ReadMeGenerator} alt="youtube demo" />
           </div>
-          <h3>README.md Generator (Node)</h3>
+          <h3>README.md Generator</h3>
+          <p className="tech-used">(Node, Inquirer.js)</p>
+          <p>
+            An application that generates professional quality README.md files for your GitHub projects using user inputs in the command line
+          </p>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/RobertRish/Employee-Tracker"
