@@ -29,7 +29,7 @@ p {
 }
 
 .portfolio__item-image {
-  border-radius: 10% / 20%;
+  border-radius: 2rem;
   overflow: hidden;
 }
 
