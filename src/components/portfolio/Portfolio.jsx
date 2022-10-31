@@ -19,10 +19,10 @@ const Portfolio = () => {
             <img src={EtchASketch} alt="Etch-a-Sketch application page" />
           </div>
           <h3>Etch-a-Sketch</h3>
-          <p className="tech-used">(HTML, CSS, JavaScript, Google Fonts API)</p>
+          <p className="tech-used">(HTML, CSS, SASS/SCSS, JavaScript, jQuery, Google Fonts API)</p>
           <p>
-            A sketch pad application that allows users to choose the level of
-            pixelation thereof. 
+            A sketch pad application that allows users to draw on a grid and choose the level of
+            pixelation the grid. 
           </p>
           <div className="portfolio__item-cta">
             <a href="https://github.com/RobertRish/etch-a-sketch" className="btn">
