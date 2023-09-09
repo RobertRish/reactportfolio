@@ -10,6 +10,10 @@ import {SiBootstrap} from "react-icons/si"
 import {SiReact} from "react-icons/si"
 import {SiNodedotjs} from "react-icons/si"
 import {SiExpress} from "react-icons/si"
+import {SiDrupal} from "react-icons/si"
+import {DiSass} from "react-icons/di"
+import {SiComposer} from "react-icons/si"
+import {FaDocker} from "react-icons/fa"
 
 const Experience = () => {
   return (
@@ -57,6 +61,18 @@ const Experience = () => {
                 <h4>React</h4>
               </div>
             </article>
+            <article className="experience__details">
+              <DiSass className='experience__details-icon'/>
+              <div>
+                <h4>SASS</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiDrupal className='experience__details-icon'/>
+              <div>
+                <h4>Drupal</h4>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -85,6 +101,18 @@ const Experience = () => {
               <GrMysql className='experience__details-icon'/>
               <div>
                 <h4>MySQL</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiComposer className='experience__details-icon'/>
+              <div>
+                <h4>Composer</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaDocker className='experience__details-icon'/>
+              <div>
+                <h4>Docker</h4>
               </div>
             </article>
           </div>

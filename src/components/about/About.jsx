@@ -10,28 +10,30 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-       <div className="container about__container">
+      <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About" />
-          </div>
-        </div> 
+          {/* <div className="about__me-image"> */}
+          <img src={ME} alt="About" />
+          {/* </div> */}
+        </div>
 
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Web Development Certificate</h5>
+              <h5>Web Developer at Concentrek</h5>
               <small>
-                Michigan State University <br></br> Full Stack Web Development Coding Boot
-                Camp
+                (Remote) <br></br> Developed Drupal website templates to present
+                to potential clients. Collaborated on building new websites for
+                clients. Continually updated clients' websites with press
+                releases, articles, etc.
               </small>
             </article>
             <article className="about__card">
               <FaUserNinja className="about__icon" />
               <h5>Sensei at Code Ninjas</h5>
               <small>
-                1+ years work experience. <br></br> Taught children ages 6-13 to code
+                Macomb, Michigan<br></br> Taught children ages 6-13 to code
                 their own video games with a curriculum that utilizes Javascript
                 and educational games such as Code Combat.
               </small>

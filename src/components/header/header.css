@@ -82,3 +82,9 @@ header {
     display: none;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .cta a {
+    font-size: 4vw;
+  }
+}

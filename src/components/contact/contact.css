@@ -37,6 +37,10 @@
     font-size: 0.8rem;
 }
 
+.contact__option h5 {
+    font-size: .69rem;
+}
+
 /* Form */
 
 form {
